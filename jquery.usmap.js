@@ -261,7 +261,7 @@
           stateAttr = attr;
         }
         this.stateShapes[state] = R.path(paths[state]).attr(stateAttr);
-	this.stateShapes[state].node.setAttribute("id", state); 
+        this.stateShapes[state].node.setAttribute("id", state); 
         this.topShape = this.stateShapes[state];
         
         this.stateHitAreas[state] = R.path(paths[state]).attr({fill: "#000",
